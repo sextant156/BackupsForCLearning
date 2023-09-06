@@ -8,9 +8,11 @@ int main()
     fp = fopen("test.txt","r");
     if(fp == NULL)
     {
+
         printf("文件打开失败");
         exit(0);
         // 关闭文件打开进程
+        
     }
     // 读取文件
     int a[100];

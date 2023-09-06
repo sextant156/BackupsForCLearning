@@ -32,7 +32,8 @@ int main()
 
         public:
             // 构造函数
-            Person(const std::string& name, int age) : name(name), age(age) {
+            Person(const std::string& name, int age) : name(name), age(age) 
+            {
                 std::cout << "Person object created." << std::endl;
             }
 

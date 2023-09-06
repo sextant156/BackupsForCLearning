@@ -37,15 +37,18 @@ int main()
     // 1#2#3
 
     // 4.
-    // char c1,c2,c3,c4,c5,c6;
-    // scanf("%c%c%c%c",&c1,&c2,&c3,&c4);
-    // c5 = getchar();
-    // c6 = getchar();
+    char c1,c2,c3,c4,c5,c6;
+    scanf("%c%c%c%c",&c1,&c2,&c3,&c4);
+    c5 = getchar();
+    c6 = getchar();
     // putchar(c1);
-    // putchar(c2);
-    // printf("%c%c",c5,c6);
-    // cout<<c4;
+    cout<<c1;
+    putchar(c2);
+    printf("%c%c",c5,c6);
+    cout<<c4;
     // c4，啥也没输出
+    // 为什么
+    // 因为c4是空格，空格不输出
 
     // 5.
     // char a = 'A';

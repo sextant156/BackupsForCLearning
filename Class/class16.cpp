@@ -10,7 +10,10 @@ public:
     {
         a = a1;
     }
-    ~A();
+    ~A()
+    {
+        
+    }
 };
 class B : public A
 {
@@ -21,7 +24,10 @@ public:
     {
         
     }
-    ~B();
+    ~B()
+    {
+
+    }
     void prt()
     {
         cout<<A::a;
